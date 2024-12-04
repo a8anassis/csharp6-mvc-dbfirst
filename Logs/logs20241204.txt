@@ -1,0 +1,221 @@
+[04-12-2024 21:28:36740 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\a8ana\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[04-12-2024 21:28:36864 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:5001"
+[04-12-2024 21:28:36867 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5000"
+[04-12-2024 21:28:36929 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[04-12-2024 21:28:36931 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[04-12-2024 21:28:36932 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp"
+[04-12-2024 21:28:37591 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-12-2024 21:28:37746 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:28:37763 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:28:37786 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:28:37972 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-12-2024 21:28:38075 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 105.2463ms.
+[04-12-2024 21:28:38083 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 292.8345ms
+[04-12-2024 21:28:38086 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:28:38094 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 507.232ms
+[04-12-2024 21:28:38097 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:28:38112 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 15.5684ms
+[04-12-2024 21:28:38118 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:28:38173 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 54.741ms
+[04-12-2024 21:28:52618 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:28:52636 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:28:52641 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:28:52643 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:28:52646 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 28.0221ms
+[04-12-2024 21:28:57174 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-12-2024 21:28:57187 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:28:57195 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:28:57198 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:28:57214 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-12-2024 21:28:57225 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 11.7781ms.
+[04-12-2024 21:28:57229 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 26.5778ms
+[04-12-2024 21:28:57232 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:28:57237 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 62.7425ms
+[04-12-2024 21:28:57273 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:28:57282 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 9.2762ms
+[04-12-2024 21:29:04699 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-12-2024 21:29:04711 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:04713 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:29:04716 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:29:04723 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-12-2024 21:29:04727 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 4.3153ms.
+[04-12-2024 21:29:04730 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 10.3948ms
+[04-12-2024 21:29:04733 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:29:04735 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 36.245ms
+[04-12-2024 21:29:04771 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:29:04771 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:29:04776 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 5.4856ms
+[04-12-2024 21:29:04800 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 29.099ms
+[04-12-2024 21:29:07252 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-12-2024 21:29:07259 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07262 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:29:07263 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:29:07265 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-12-2024 21:29:07268 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 2.7365ms.
+[04-12-2024 21:29:07270 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 4.9281ms
+[04-12-2024 21:29:07275 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:29:07278 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 26.3709ms
+[04-12-2024 21:29:07309 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[04-12-2024 21:29:07311 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[04-12-2024 21:29:07312 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/SchoolApp.styles.css""?v=3ho_1ygyCkpbaS-VUi38G4nbtJdQb1DwGALBqyus1E8" - null null
+[04-12-2024 21:29:07312 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:29:07312 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/lib/jquery/dist/jquery.min.js""" - null null
+[04-12-2024 21:29:07312 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[04-12-2024 21:29:07313 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[04-12-2024 21:29:07313 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:29:07314 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07321 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07324 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07326 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 13.7105ms
+[04-12-2024 21:29:07329 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07331 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07336 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07350 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\wwwroot\css\site.css"'
+[04-12-2024 21:29:07350 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/SchoolApp.styles.css"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\obj\Debug\net8.0\scopedcss\bundle\SchoolApp.styles.css"'
+[04-12-2024 21:29:07359 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+[04-12-2024 21:29:07359 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 46.1722ms
+[04-12-2024 21:29:07362 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\wwwroot\js\site.js"'
+[04-12-2024 21:29:07366 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 54.9616ms
+[04-12-2024 21:29:07369 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+[04-12-2024 21:29:07369 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+[04-12-2024 21:29:07369 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/SchoolApp.styles.css""?v=3ho_1ygyCkpbaS-VUi38G4nbtJdQb1DwGALBqyus1E8" - 200 1127 "text/css" 57.272ms
+[04-12-2024 21:29:07374 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 200 162720 "text/css" 64.2135ms
+[04-12-2024 21:29:07386 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 73.7193ms
+[04-12-2024 21:29:07399 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 86.3817ms
+[04-12-2024 21:29:07402 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 89.7ms
+[04-12-2024 21:29:07423 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - null null
+[04-12-2024 21:29:07433 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:07436 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp\wwwroot\favicon.ico"'
+[04-12-2024 21:29:07438 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/favicon.ico""" - 200 5430 "image/x-icon" 14.7157ms
+[04-12-2024 21:29:10341 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:29:10351 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:10354 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:10355 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:10357 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 15.8919ms
+[04-12-2024 21:29:13050 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:29:13059 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:13063 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:13066 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:13067 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 16.7969ms
+[04-12-2024 21:29:13229 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:29:13238 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:13242 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:13246 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:13247 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 18.3521ms
+[04-12-2024 21:29:13385 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:29:13395 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:13401 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:13404 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:13405 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 20.1343ms
+[04-12-2024 21:29:32451 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:29:32459 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:32461 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:32463 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:32466 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 14.9359ms
+[04-12-2024 21:29:58264 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:29:58271 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:29:58273 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:58277 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-12-2024 21:29:58280 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 15.7114ms
+[04-12-2024 21:30:34147 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...
+[04-12-2024 21:33:25159 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\a8ana\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[04-12-2024 21:33:25289 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:5001"
+[04-12-2024 21:33:25292 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5000"
+[04-12-2024 21:33:25349 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[04-12-2024 21:33:25353 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[04-12-2024 21:33:25354 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\a8ana\source\repos\Web6MVCDBFirst\SchoolApp"
+[04-12-2024 21:33:25904 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-12-2024 21:33:25983 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:33:26002 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:33:26029 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:33:26160 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-12-2024 21:33:26253 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 96.2418ms.
+[04-12-2024 21:33:26259 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 223.8668ms
+[04-12-2024 21:33:26262 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:33:26271 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 367.7586ms
+[04-12-2024 21:33:26291 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:33:26293 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:33:26299 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 8.2511ms
+[04-12-2024 21:33:26334 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 40.7718ms
+[04-12-2024 21:33:29102 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-12-2024 21:33:29116 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:33:29120 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-12-2024 21:33:29125 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"SignUp\", controller = \"Teacher\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignUp()" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-12-2024 21:33:29138 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "SignUp".
+[04-12-2024 21:33:29181 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "SignUp" executed in 44.1429ms.
+[04-12-2024 21:33:29183 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)" in 52.3294ms
+[04-12-2024 21:33:29185 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-12-2024 21:33:29186 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 200 null "text/html; charset=utf-8" 84.7867ms
+[04-12-2024 21:33:29227 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:33:29229 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:33:29235 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 7.9945ms
+[04-12-2024 21:33:29256 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 27.4579ms
+[04-12-2024 21:34:10583 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - "application/x-www-form-urlencoded" 341
+[04-12-2024 21:34:10595 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:34:10601 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-12-2024 21:34:10614 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"SignUp\", controller = \"Teacher\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SignUp(SchoolApp.DTO.TeacherSignupDTO)" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-12-2024 21:34:11838 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("34"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[Lastname], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0"
+[04-12-2024 21:34:12076 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("5"ms) [Parameters=["@__phoneNumber_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t].[Id], [t].[Institution], [t].[PhoneNumber], [t].[UserId]
+FROM [Teachers] AS [t]
+WHERE [t].[PhoneNumber] = @__phoneNumber_0"
+[04-12-2024 21:34:12192 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("5"ms) [Parameters=["@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 60), @p4='?' (Size = 50), @p5='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Firstname], [Lastname], [Password], [UserRole], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+[04-12-2024 21:34:12217 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("5"ms) [Parameters=["@p6='?' (Size = 50), @p7='?' (Size = 20), @p8='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Teachers] ([Institution], [PhoneNumber], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p6, @p7, @p8);"
+[04-12-2024 21:34:12236 +02:00 SchoolApp.Services.TeacherService ] "Teacher: SchoolApp.Data.Teacher signed up successfully."
+[04-12-2024 21:34:12242 +02:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/".
+[04-12-2024 21:34:12243 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)" in 1625.546ms
+[04-12-2024 21:34:12245 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-12-2024 21:34:12250 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-12-2024 21:34:12251 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - 302 0 null 1667.56ms
+[04-12-2024 21:34:12255 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:34:12256 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:34:12257 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:34:12260 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-12-2024 21:34:12264 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 4.1146ms.
+[04-12-2024 21:34:12265 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 6.0988ms
+[04-12-2024 21:34:12267 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:34:12268 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 17.7091ms
+[04-12-2024 21:34:12305 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:34:12308 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 2.8066ms
+[04-12-2024 21:34:12319 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:34:12342 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 23.1412ms
+[04-12-2024 21:34:22428 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/""" - "application/x-www-form-urlencoded" 239
+[04-12-2024 21:34:22434 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] "Cookies" was not authenticated. Failure message: "Unprotect ticket failed"
+[04-12-2024 21:34:22436 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:34:22442 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(SchoolApp.DTO.UserLoginDTO)" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:34:22513 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("6"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[Lastname], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0"
+[04-12-2024 21:34:22655 +02:00 SchoolApp.Services.UserService ] "User: SchoolApp.Data.User found and returned."
+[04-12-2024 21:34:22663 +02:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] AuthenticationScheme: "Cookies" signed in.
+[04-12-2024 21:34:22670 +02:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/User/Index".
+[04-12-2024 21:34:22673 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 228.031ms
+[04-12-2024 21:34:22674 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-12-2024 21:34:22675 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/""" - 302 0 null 247.3975ms
+[04-12-2024 21:34:22679 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/User/Index""" - null null
+[04-12-2024 21:34:22685 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Index (SchoolApp)"'
+[04-12-2024 21:34:22688 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Index\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-12-2024 21:34:22692 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Index".
+[04-12-2024 21:34:22696 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Index" executed in 5.0431ms.
+[04-12-2024 21:34:22699 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Index (SchoolApp)" in 7.936ms
+[04-12-2024 21:34:22700 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Index (SchoolApp)"'
+[04-12-2024 21:34:22701 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/User/Index""" - 200 null "text/html; charset=utf-8" 21.8743ms
+[04-12-2024 21:34:22731 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-12-2024 21:34:22735 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-12-2024 21:34:22741 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 5.9386ms
+[04-12-2024 21:34:22755 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 23.7319ms
+[04-12-2024 21:35:02744 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...

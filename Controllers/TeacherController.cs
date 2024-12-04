@@ -23,6 +23,12 @@ namespace SchoolApp.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> SignUp(TeacherSignupDTO teacherSignupDTO)
         {
